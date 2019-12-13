@@ -1,5 +1,7 @@
-pandoc -s 01_preface.md 02_introduction.md 03_why_markdown_is_useful.md 04_limitations_of_markdown.md 05_conclusions.md 06_links.md -o output.md
+## How To
 
-pandoc -s 01_preface.md 02_introduction.md 03_why_markdown_is_useful.md 04_limitations_of_markdown.md 05_conclusions.md 06_links.md -o output.md --toc -V toc-title:"Table of Contents" --template=template.markdown
+- Execute the following command to generate from the markdown files the `generated.md` including the TOC created using the `template.mardown`
 
-pandoc --toc -V toc-title:"Table of Contents" --template=template.markdown -o example-with-toc.md 01_preface.md
+```bash
+pandoc --toc -V toc-title:"Table of Contents" --template=template.markdown -o generated.md 01_preface.md 02_introduction.md 03_why_markdown_is_useful.md 04_limitations_of_markdown.md 05_conclusions.md 06_links.md
+```
