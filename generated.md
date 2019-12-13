@@ -1,13 +1,10 @@
 ## Table of Contents
 
-
-
-
--   [Command: Preface](#command-preface)
--   [Command: Intro](#command-intro)
--   [Command: Why](#command-why)
--   [Command: Limitation](#command-limitation)
--   [Command: Conclusion](#command-conclusion)
+-  [Command: Preface](#command-preface)
+-  [Command: Intro](#command-intro)
+-  [Command: Why](#command-why)
+-  [Command: Limitation](#command-limitation)
+-  [Command: Conclusion](#command-conclusion)
 
 --------
 

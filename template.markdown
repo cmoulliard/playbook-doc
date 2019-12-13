@@ -2,16 +2,16 @@
 
 $if(titleblock)$
 $titleblock$
-$endif$
 
+$endif$
 $for(header-includes)$
 $header-includes$
-$endfor$
 
+$endfor$
 $for(include-before)$
 $include-before$
-$endfor$
 
+$endfor$
 $if(toc)$
 $table-of-contents$
 $endif$
@@ -19,7 +19,7 @@ $endif$
 --------
 
 $body$
-
 $for(include-after)$
+
 $include-after$
 $endfor$
