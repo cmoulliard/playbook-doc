@@ -1,3 +1,9 @@
+# Play with our list of Developer's features
+
+## Roles - Features
+
+The table hereafter summarizes the roles available that you can call using the `post_installation` playbook.
+
 ## $toc-title$
 
 $if(titleblock)$

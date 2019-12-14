@@ -1,10 +1,16 @@
+# Play with our list of Developer's features
+
+## Roles - Features
+
+The table hereafter summarizes the roles available that you can call using the `post_installation` playbook.
+
 ## Table of Contents
 
--  [Command: Preface](#command-preface)
--  [Command: Intro](#command-intro)
--  [Command: Why](#command-why)
--  [Command: Limitation](#command-limitation)
--  [Command: Conclusion](#command-conclusion)
+-   [Command: Preface](#command-preface)
+-   [Command: Intro](#command-intro)
+-   [Command: Why](#command-why)
+-   [Command: Limitation](#command-limitation)
+-   [Command: Conclusion](#command-conclusion)
 
 --------
 

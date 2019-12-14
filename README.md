@@ -14,7 +14,7 @@ pandoc --toc \
       05_conclusions.md \
       06_links.md
 ```
-- To split existing file into individual files
+- To split an existing file into individual files, use `cspli` with the regular expression `'/^Command: */'`
 ```bash
-csplit -f command -k generated.md '/^Command: */' '{999}'
+csplit -f gen/command -k generated.md '/^Command: */' '{999}'
 ```
