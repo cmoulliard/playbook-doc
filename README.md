@@ -9,9 +9,8 @@ pandoc --toc \
       -o generated.md \
       01_preface.md \
       02_introduction.md \
-      03_why_markdown_is_useful.md \
-      04_limitations_of_markdown.md \
-      05_conclusions.md \
+      03_content.md \
+      04_conclusion.md \
       06_links.md
 ```
 - To split an existing file into individual files, use `cspli` with the regular expression `'/^Command: */'`
