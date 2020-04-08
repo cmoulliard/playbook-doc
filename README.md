@@ -9,7 +9,7 @@ pandoc --toc \
       -o generated.md \
       01_preface.md \
       02_introduction.md \
-      03_content.md \
+      03_commands.md \
       04_conclusion.md \
       06_links.md
 ```
