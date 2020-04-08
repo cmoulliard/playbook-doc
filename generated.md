@@ -8,9 +8,12 @@ The table hereafter summarizes the roles available that you can call using the `
 
 -   [Preface](#preface)
 -   [Introduction](#introduction)
--   [Content](#content)
-    -   [Command: role1](#command-role1)
-    -   [Command: role2](#command-role2)
+-   [Playbook 1](#playbook-1)
+    -   [Command: role 1.1](#command-role-1.1)
+    -   [Command: role 1.2](#command-role-1.2)
+-   [Playbook 2](#playbook-2)
+    -   [Command: role 2.1](#command-role-2.1)
+    -   [Command: role 2.2](#command-role-2.2)
 -   [Conclusion](#conclusion)
 
 --------
@@ -27,13 +30,13 @@ Introduction
 Let's start digging into [the best text-based
 syntax](http://daringfireball.net/projects/markdown) available.
 
-Content
--------
+Playbook 1
+----------
 
 Let's start digging into [the best text-based
 syntax](http://daringfireball.net/projects/markdown) available.
 
-### Command: role1
+### Command: role 1.1
 
 #### Type
 
@@ -43,7 +46,33 @@ okd
 
 This is the description of role1
 
-### Command: role2
+### Command: role 1.2
+
+#### Type
+
+k8s
+
+#### Description
+
+This is the description of role 2
+
+Playbook 2
+----------
+
+Let's start digging into [the best text-based
+syntax](http://daringfireball.net/projects/markdown) available.
+
+### Command: role 2.1
+
+#### Type
+
+okd
+
+#### Description
+
+This is the description of role1
+
+### Command: role 2.2
 
 #### Type
 

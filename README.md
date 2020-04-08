@@ -12,7 +12,8 @@ pandoc --toc \
       -o generated.md \
       01_preface.md \
       02_introduction.md \
-      03_commands.md \
+      03_command1.md \
+      03_command2.md \
       04_conclusion.md \
       06_links.md
 ```
