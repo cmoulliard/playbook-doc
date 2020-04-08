@@ -21,20 +21,20 @@ The table hereafter summarizes the roles available that you can call using the `
 Preface
 -------
 
-I always wanted to play with some playbooks from Ansible
-[markdown](https://docs.ansible.com/).
+I always wanted to play with some playbooks from
+[Ansible](https://docs.ansible.com/).
 
 Introduction
 ------------
 
-Let's start digging into the Ansible technology [the best text-based
-syntax](https://docs.ansible.com/) available.
+Let's start digging into the [Ansible
+technology](https://docs.ansible.com/) available.
 
 Playbook 1
 ----------
 
-Let's start digging into [the best text-based
-syntax](https://docs.ansible.com/) available.
+Let's start digging into [Ansible technology](https://docs.ansible.com/)
+available.
 
 ### Command: role 1
 
@@ -59,8 +59,8 @@ This is the description of role 2
 Playbook 2
 ----------
 
-Let's start digging into [the best text-based
-syntax](https://docs.ansible.com/) available.
+Let's start digging into [Ansible technology](https://docs.ansible.com/)
+available.
 
 ### Command: role 3
 
@@ -85,5 +85,4 @@ This is the description of role 2
 Conclusion
 ----------
 
-Happy about your Ansible discoveries
-[markdown](https://docs.ansible.com/).
+Happy about your [Ansible](https://docs.ansible.com/) discoveries.

@@ -1,3 +1,3 @@
 ## Conclusion
 
-Happy about your Ansible discoveries [markdown][ansiblelink].
+Happy about your [Ansible][ansiblelink] discoveries.
