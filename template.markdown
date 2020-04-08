@@ -1,4 +1,4 @@
-# Play with our list of Developer's features
+# Play with our list of Playbooks
 
 ## Roles - Features
 

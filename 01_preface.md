@@ -1,3 +1,3 @@
 ## Preface
 
-I always wanted to write a book with [markdown][mkdnlink].
+I always wanted to play with some playbooks from Ansible [markdown][ansiblelink].

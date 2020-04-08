@@ -1,2 +1,2 @@
-[mkdnlink]: http://daringfireball.net/projects/markdown
+[ansiblelink]: https://docs.ansible.com/
 

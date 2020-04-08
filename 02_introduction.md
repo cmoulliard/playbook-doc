@@ -1,3 +1,3 @@
 ## Introduction
 
-Let's start digging into [the best text-based syntax][mkdnlink] available.
+Let's start digging into the Ansible technology [the best text-based syntax][ansiblelink] available.

@@ -1,6 +1,6 @@
 ## Playbook 1
 
-Let's start digging into [the best text-based syntax][mkdnlink] available.
+Let's start digging into [the best text-based syntax][ansiblelink] available.
 
 ### Command: role 1
 

@@ -1,4 +1,4 @@
-# Play with our list of Developer's features
+# Play with our list of Playbooks
 
 ## Roles - Features
 
@@ -21,20 +21,20 @@ The table hereafter summarizes the roles available that you can call using the `
 Preface
 -------
 
-I always wanted to write a book with
-[markdown](http://daringfireball.net/projects/markdown).
+I always wanted to play with some playbooks from Ansible
+[markdown](https://docs.ansible.com/).
 
 Introduction
 ------------
 
-Let's start digging into [the best text-based
-syntax](http://daringfireball.net/projects/markdown) available.
+Let's start digging into the Ansible technology [the best text-based
+syntax](https://docs.ansible.com/) available.
 
 Playbook 1
 ----------
 
 Let's start digging into [the best text-based
-syntax](http://daringfireball.net/projects/markdown) available.
+syntax](https://docs.ansible.com/) available.
 
 ### Command: role 1
 
@@ -60,7 +60,7 @@ Playbook 2
 ----------
 
 Let's start digging into [the best text-based
-syntax](http://daringfireball.net/projects/markdown) available.
+syntax](https://docs.ansible.com/) available.
 
 ### Command: role 3
 
@@ -85,5 +85,5 @@ This is the description of role 2
 Conclusion
 ----------
 
-I always wanted to write a book with
-[markdown](http://daringfireball.net/projects/markdown).
+Happy about your Ansible discoveries
+[markdown](https://docs.ansible.com/).
