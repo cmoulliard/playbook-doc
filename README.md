@@ -6,6 +6,7 @@
   - Including the TOC created using the `template.mardown`
 
 ```bash
+cd markdown
 pandoc --toc \
       -V toc-title:"Table of Contents" \
       --template=template.markdown \
@@ -16,6 +17,7 @@ pandoc --toc \
       03_command2.md \
       04_conclusion.md \
       06_links.md
+cd ..
 ```
 
 ## To split the content generated
