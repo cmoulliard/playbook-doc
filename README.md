@@ -1,4 +1,13 @@
-## How To generate a file concatenation markdown files
+## How To generate playbook/role documentation
+
+Table of Contents
+=================
+
+  * [How To generate a file concatenation markdown files](#how-to-generate-a-file-concatenation-markdown-files)
+     * [Using pandoc](#using-pandoc)
+     * [With the help of asciidoctor](#with-the-help-of-asciidoctor)
+  * [To split the content generated](#to-split-the-content-generated)
+
 
 ### Using pandoc
 
