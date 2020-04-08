@@ -5,6 +5,10 @@
 
 The table hereafter summarizes the roles available that you can call using the `post_installation` playbook.
 
+## Table of Contents
+
+:toc:
+
 include::01_preface.adoc[]
 include::02_introduction.adoc[]
 include::03_command1.adoc[]

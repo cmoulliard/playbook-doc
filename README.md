@@ -33,8 +33,8 @@ cd ..
 
 ## With the help of asciidoctor
 ```bash
-asciidoctor asciidoctor/generated.adoc
-open asciidoctor/generated.html
+asciidoctor asciidoctor/all.adoc
+open asciidoctor/all.html
 ```
 
 ## To split the content generated
