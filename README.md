@@ -1,4 +1,4 @@
-## How To generate playbook/role documentation
+# How To generate playbook/role documentation
 
 Table of Contents
 =================
@@ -9,7 +9,7 @@ Table of Contents
   * [To split the content generated](#to-split-the-content-generated)
 
 
-### Using pandoc
+## Using pandoc
 
 - Execute the following command to generate from :
   - The different markdown files, which includes also a file with different roles / commands
@@ -31,7 +31,7 @@ pandoc --toc \
 cd ..
 ```
 
-### With the help of asciidoctor
+## With the help of asciidoctor
 ```bash
 asciidoctor asciidoctor/generated.adoc
 open asciidoctor/generated.html
