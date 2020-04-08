@@ -1,5 +1,7 @@
 ## How To generate a file concatenation markdown files
 
+### Using pandoc
+
 - Execute the following command to generate from :
   - The different markdown files, which includes also a file with different roles / commands
   - The `generated.md` file
@@ -18,6 +20,12 @@ pandoc --toc \
       04_conclusion.md \
       06_links.md
 cd ..
+```
+
+### With the help of asciidoctor
+```bash
+asciidoctor asciidoctor/generated.adoc
+open asciidoctor/generated.html
 ```
 
 ## To split the content generated
