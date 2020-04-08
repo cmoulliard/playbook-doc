@@ -8,6 +8,11 @@ Table of Contents
      * [With the help of asciidoctor](#with-the-help-of-asciidoctor)
   * [To split the content generated](#to-split-the-content-generated)
 
+## With the help of asciidoctor
+```bash
+asciidoctor asciidoctor/all.adoc
+open asciidoctor/all.html
+```
 
 ## Using pandoc
 
@@ -29,12 +34,6 @@ pandoc --toc \
       04_conclusion.md \
       06_links.md
 cd ..
-```
-
-## With the help of asciidoctor
-```bash
-asciidoctor asciidoctor/all.adoc
-open asciidoctor/all.html
 ```
 
 ## To split the content generated
