@@ -9,11 +9,11 @@ The table hereafter summarizes the roles available that you can call using the `
 -   [Preface](#preface)
 -   [Introduction](#introduction)
 -   [Playbook 1](#playbook-1)
-    -   [Command: role 1.1](#command-role-1.1)
-    -   [Command: role 1.2](#command-role-1.2)
+    -   [Command: role 1](#command-role-1)
+    -   [Command: role 2](#command-role-2)
 -   [Playbook 2](#playbook-2)
-    -   [Command: role 2.1](#command-role-2.1)
-    -   [Command: role 2.2](#command-role-2.2)
+    -   [Command: role 3](#command-role-3)
+    -   [Command: role 4](#command-role-4)
 -   [Conclusion](#conclusion)
 
 --------
@@ -36,7 +36,7 @@ Playbook 1
 Let's start digging into [the best text-based
 syntax](http://daringfireball.net/projects/markdown) available.
 
-### Command: role 1.1
+### Command: role 1
 
 #### Type
 
@@ -46,7 +46,7 @@ okd
 
 This is the description of role1
 
-### Command: role 1.2
+### Command: role 2
 
 #### Type
 
@@ -62,7 +62,7 @@ Playbook 2
 Let's start digging into [the best text-based
 syntax](http://daringfireball.net/projects/markdown) available.
 
-### Command: role 2.1
+### Command: role 3
 
 #### Type
 
@@ -72,7 +72,7 @@ okd
 
 This is the description of role1
 
-### Command: role 2.2
+### Command: role 4
 
 #### Type
 

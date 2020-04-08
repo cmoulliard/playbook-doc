@@ -2,7 +2,7 @@
 
 Let's start digging into [the best text-based syntax][mkdnlink] available.
 
-### Command: role 1.1
+### Command: role 1
 
 #### Type
 okd
@@ -10,7 +10,7 @@ okd
 #### Description
 This is the description of role1
 
-### Command: role 1.2
+### Command: role 2
 
 #### Type
 k8s
