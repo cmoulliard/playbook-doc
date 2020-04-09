@@ -8,6 +8,12 @@ Table of Contents
      * [With the help of asciidoctor](#with-the-help-of-asciidoctor)
   * [To split the content generated](#to-split-the-content-generated)
 
+## Java project
+```bash
+mvn exec:java -Dexec.mainClass=dev.snowdrop.AsciidoctorGenerator -Dexec.args="asciidoctor/all.adoc"
+```
+
+
 ## With the help of asciidoctor
 ```bash
 asciidoctor asciidoctor/all.adoc
