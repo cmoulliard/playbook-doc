@@ -1,6 +1,6 @@
 package dev.snowdrop;
 
-import dev.snowdrop.extension.DynamicTable;
+import dev.snowdrop.extension.FindRoles;
 import org.asciidoctor.Asciidoctor;
 import org.asciidoctor.OptionsBuilder;
 import org.asciidoctor.SafeMode;
@@ -14,7 +14,7 @@ public class AsciidoctorGenerator {
 
         // Include the Table extension
         asciidoctor.javaExtensionRegistry()
-                .treeprocessor(DynamicTable.class);
+                .treeprocessor(FindRoles.class);
 
         // Generate HTML
         asciidoctor.convertFile(
