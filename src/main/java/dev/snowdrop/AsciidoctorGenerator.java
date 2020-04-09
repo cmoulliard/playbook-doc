@@ -1,5 +1,6 @@
 package dev.snowdrop;
 
+import dev.snowdrop.extension.FindRolesPreProcessor;
 import dev.snowdrop.extension.FindRolesTreeProcessor;
 import dev.snowdrop.extension.GenerateTableBlockProcessor;
 import dev.snowdrop.type.Role;
@@ -18,7 +19,7 @@ public class AsciidoctorGenerator {
 
         // Include the Table extension
         asciidoctor.javaExtensionRegistry()
-                .treeprocessor(FindRolesTreeProcessor.class)
+                .preprocessor(FindRolesPreProcessor.class)
                 .block(GenerateTableBlockProcessor.class);
 
         // Generate HTML

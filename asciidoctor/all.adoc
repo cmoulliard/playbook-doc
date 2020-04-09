@@ -2,6 +2,8 @@
 
 :toc:
 
+= Playbook documentation
+
 include::01_introduction.adoc[]
 
 == Roles - Features
