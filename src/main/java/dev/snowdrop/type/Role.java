@@ -1,5 +1,7 @@
 package dev.snowdrop.type;
 
+import java.util.HashMap;
+
 public class Role {
 
     String name;

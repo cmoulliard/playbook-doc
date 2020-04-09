@@ -13,7 +13,9 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-public class FindRoles extends Treeprocessor {
+import static dev.snowdrop.Helper.roles;
+
+public class FindRolesTreeProcessor extends Treeprocessor {
 
     private final static String KEYWORD_ROLE = "Command";
     private final static String KEYWORD_TYPE = "Cluster target type";
@@ -26,7 +28,6 @@ public class FindRoles extends Treeprocessor {
     }
 
     private void processBlock(StructuralNode node) {
-        HashMap<Integer, Role> roles = new HashMap<Integer, Role>();
 
         // Define a selector to find the sections starting with name "Command"
         Map<Object, Object> selector = new HashMap<Object, Object>();
@@ -38,6 +39,8 @@ public class FindRoles extends Treeprocessor {
         // Role
         Role role;
         int counter = 0;
+
+        // Loop though the sections
         for (int i = 0; i < findBy.size(); i++) {
             final StructuralNode subNode = findBy.get(i);
             role = new Role();
