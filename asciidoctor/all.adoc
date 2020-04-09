@@ -1,13 +1,13 @@
 :toc:
 
-# Play with our list of Playbooks
+include::01_introduction.adoc[]
 
 ## Roles - Features
 
-The table hereafter summarizes the roles available that you can call using the `post_installation` playbook.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ac nibh ac lectus lobortis molestie sit amet a purus. Cras eu augue a augue maximus fringilla sit amet quis turpis. Phasellus a nisl ut sem fermentum hendrerit. Praesent volutpat pulvinar consequat. Nullam et tellus bibendum, rhoncus dui lobortis, vestibulum neque. Aliquam sit amet egestas nisl. Duis vitae aliquet augue. Integer at bibendum ex. Vestibulum nec nunc quis augue ullamcorper sollicitudin nec quis augue. Morbi purus velit, maximus at fermentum quis, faucibus nec augue. Quisque ac felis finibus, dapibus odio vel, aliquam lacus.
 
-include::01_preface.adoc[]
-include::02_introduction.adoc[]
-include::03_command1.adoc[]
-include::03_command2.adoc[]
+include::02_command.adoc[]
+
+include::03_command.adoc[]
+
 include::04_conclusion.adoc[]

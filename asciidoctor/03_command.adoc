@@ -1,7 +1,3 @@
-## Playbook 2
-
-Let's start digging into [Ansible technology][ansiblelink] available.
-
 ### Command: role 3
 
 #### Type
