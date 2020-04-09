@@ -1,26 +1,28 @@
-# How To generate playbook/role documentation
+# HowTo generate playbook/role documentation
 
 Table of Contents
 =================
 
-  * [How To generate a file concatenation markdown files](#how-to-generate-a-file-concatenation-markdown-files)
-     * [Using pandoc](#using-pandoc)
-     * [With the help of asciidoctor](#with-the-help-of-asciidoctor)
+  * [Asciidoctor generator](#asciidoctor-generator)
+     * [Using Java class](#using-java-class)
+     * [Using the Client](#using-the-client)
+  * [Pandoc tool](#pandoc-tool)
   * [To split the content generated](#to-split-the-content-generated)
 
-## Java project
+## Asciidoctor generator
+
+### Using Java class
 ```bash
 mvn exec:java -Dexec.mainClass=dev.snowdrop.AsciidoctorGenerator -Dexec.args="asciidoctor/all.adoc"
 ```
 
-
-## With the help of asciidoctor
+### Using the Client
 ```bash
 asciidoctor asciidoctor/all.adoc
 open asciidoctor/all.html
 ```
 
-## Using pandoc
+## Pandoc tool
 
 - Execute the following command to generate from :
   - The different markdown files, which includes also a file with different roles / commands
