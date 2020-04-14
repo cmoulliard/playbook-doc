@@ -1,15 +1,11 @@
 package dev.snowdrop;
 
-import dev.snowdrop.extension.FindRolesPreProcessor;
-import dev.snowdrop.extension.FindRolesTreeProcessor;
-import dev.snowdrop.extension.GenerateTableBlockProcessor;
-import dev.snowdrop.type.Role;
+import dev.snowdrop.extension.CreateTableTreeProcessor;
 import org.asciidoctor.Asciidoctor;
 import org.asciidoctor.OptionsBuilder;
 import org.asciidoctor.SafeMode;
 
 import java.io.File;
-import java.util.HashMap;
 
 public class AsciidoctorGenerator {
 
@@ -19,8 +15,10 @@ public class AsciidoctorGenerator {
 
         // Include the Table extension
         asciidoctor.javaExtensionRegistry()
-                .preprocessor(FindRolesPreProcessor.class)
-                .block(GenerateTableBlockProcessor.class);
+           .treeprocessor(CreateTableTreeProcessor.class);
+        // .treeprocessor(FindRolesTreeProcessor.class)
+        //.preprocessor(FindRolesPreProcessor.class)
+        //.blockMacro("myroles",GenerateTableBlockProcessor.class);
 
         // Generate HTML
         asciidoctor.convertFile(

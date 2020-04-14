@@ -22,13 +22,14 @@ public class FindRolesPreProcessor extends Preprocessor {
     private final static String KEYWORD_DESCRIPTION = "Description";
 
     @Override
-    public void process(Document document, PreprocessorReader reader) {
+    public void process(Document doc, PreprocessorReader reader) {
         Document node = reader.getDocument();
 
         // Define a selector to find the sections starting with name "Command"
         Map<Object, Object> selector = new HashMap<Object, Object>();
         selector.put("context", ":section");
 
+        System.out.println("Blocks : " + node.getBlocks());
         // Search about the section within the document
         List<StructuralNode> findBy = node.findBy(selector);
 
