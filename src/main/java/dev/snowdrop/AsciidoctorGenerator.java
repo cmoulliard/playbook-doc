@@ -11,29 +11,28 @@ public class AsciidoctorGenerator {
 
     public static void main(String[] args) {
         String adocFile = args[0];
-        Asciidoctor asciidoctor = Asciidoctor.Factory.create();
+        try (Asciidoctor asciidoctor = Asciidoctor.Factory.create()) {
 
-        // Include the Table extension
-        asciidoctor.javaExtensionRegistry()
-           .treeprocessor(CreateTableTreeProcessor.class);
-        // .treeprocessor(FindRolesTreeProcessor.class)
-        //.preprocessor(FindRolesPreProcessor.class)
-        //.blockMacro("myroles",GenerateTableBlockProcessor.class);
+            // Include the Table extension
+            asciidoctor.javaExtensionRegistry()
+                    .treeprocessor(CreateTableTreeProcessor.class);
 
-        // Generate HTML
-        asciidoctor.convertFile(
-                new File(adocFile),
-                OptionsBuilder.options()
-                        .toFile(true)
-                        .safe(SafeMode.UNSAFE));
-        // Generate PDF
-        /*
-        asciidoctor.convertFile(
-        new File(adocFile),
-        OptionsBuilder.options()
-                .backend("pdf")
-                .toFile(true)
-                .safe(SafeMode.UNSAFE));
-        */
+            // Generate HTML
+            asciidoctor.convertFile(
+                    new File(adocFile),
+                    OptionsBuilder.options()
+                            .toFile(true)
+                            .safe(SafeMode.UNSAFE));
+
+            // Generate PDF
+            /*
+            asciidoctor.convertFile(
+            new File(adocFile),
+            OptionsBuilder.options()
+                    .backend("pdf")
+                    .toFile(true)
+                    .safe(SafeMode.UNSAFE));
+            */
+        }
     }
 }
