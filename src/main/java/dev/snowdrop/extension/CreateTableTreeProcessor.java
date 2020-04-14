@@ -18,6 +18,7 @@ public class CreateTableTreeProcessor extends Treeprocessor {
     private final static String KEYWORD_ROLE = "Command";
     private final static String KEYWORD_TYPE = "Cluster target type";
     private final static String KEYWORD_DESCRIPTION = "Description";
+    private final static String ROLE_ATTRIBUTE_NAME = "role-table";
 
     @Override
     public Document process(Document document) {
@@ -34,7 +35,18 @@ public class CreateTableTreeProcessor extends Treeprocessor {
 
         for (int i = 0; i < findBy.size(); i++) {
             StructuralNode table = (TableImpl)findBy.get(i);
-            table.getBlocks().add(populateTable((Table) table));
+            for (Map.Entry<String, Object> entry : table.getAttributes().entrySet()) {
+                String k = entry.getKey();
+                if (k.contains("attributes")) {
+                    String attributes = (String)entry.getValue();
+                    for (String attr : attributes.split(",")) {
+                        if (attr.contentEquals(ROLE_ATTRIBUTE_NAME)) {
+                            table.getBlocks().add(populateTable((Table) table));
+                        }
+                    }
+                }
+            }
+
         }
         return document;
     }
